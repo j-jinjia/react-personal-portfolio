@@ -29,7 +29,7 @@ export const Contact = () => {
     <section id="contact" className="contact">
       <h2 className="contact__heading">Contact </h2>
       <h3 className="contact__sub-heading">
-        Do you want to chat? Get in touch!
+        Do you want to chat? Get in touch
       </h3>
       <form className="contact__form" ref={form} onSubmit={sendEmail}>
         <label>Name</label>
