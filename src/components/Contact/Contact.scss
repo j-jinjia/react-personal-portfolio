@@ -1,0 +1,19 @@
+.contact{
+    padding:6rem;
+    display: flex;
+    flex-direction: column;
+    width:auto;
+    text-align: start;
+    &__form{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+    &__submit{
+        margin-top:1rem;
+        width:6rem;
+        align-self: flex-end;
+    }
+
+
+}
