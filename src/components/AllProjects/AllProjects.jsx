@@ -1,4 +1,5 @@
 import React from "react";
+import "./AllProjects.scss";
 import CardProject from "../CardProjects/CardProject";
 
 const AllProjects = ({ data }) => {

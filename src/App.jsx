@@ -7,7 +7,10 @@ import Contact from "./components/Contact/Contact";
 // TO do :
 /* 
 
-add navbar links without navmenu
+make responsive tablet and desktop
+check project display for tablet and destkop
+style buttons
+style navlinks
 change favicon 
 create footer component*/
 const App = () => {

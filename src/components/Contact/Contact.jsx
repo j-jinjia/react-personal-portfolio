@@ -27,19 +27,21 @@ export const Contact = () => {
 
   return (
     <section id="contact" className="contact">
-      <h2 className="contact__heading">Contact </h2>
-      <h3 className="contact__sub-heading">
-        Do you want to chat? Get in touch
-      </h3>
-      <form className="contact__form" ref={form} onSubmit={sendEmail}>
-        <label>Name</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" required />
-        <label>Message</label>
-        <textarea name="message" required />
-        <input className="contact__submit" type="submit" value="Send" />
-      </form>
+      <div className="container">
+        <h2 className="contact__heading">Contact </h2>
+        <h3 className="contact__sub-heading">
+          Do you want to chat? Get in touch
+        </h3>
+        <form className="contact__form" ref={form} onSubmit={sendEmail}>
+          <label>Name</label>
+          <input type="text" name="user_name" />
+          <label>Email</label>
+          <input type="email" name="user_email" required />
+          <label>Message</label>
+          <textarea name="message" required />
+          <input className="contact__submit" type="submit" value="Send" />
+        </form>
+      </div>
     </section>
   );
 };

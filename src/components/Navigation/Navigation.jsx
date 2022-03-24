@@ -13,7 +13,12 @@ const Navigation = () => {
       <section className="navigation">
         <h1 className="navigation__logo">Jiazheng Jin Jia</h1>
         {!showNavbar && (
-          <img src={menuIcon} alt="menu icon" onClick={handleClickMenu} />
+          <img
+            className="navigation__menu"
+            src={menuIcon}
+            alt="menu icon"
+            onClick={handleClickMenu}
+          />
         )}
         {showNavbar && (
           <div className="menu-navbar">
@@ -39,6 +44,20 @@ const Navigation = () => {
             </ul>
           </div>
         )}
+        <ul className="links-desktop">
+          <a href="#home" className="links-desktop__home">
+            Home
+          </a>
+          <a href="#projects" className="links-desktop__projects">
+            Projects
+          </a>
+          <a href="#about" className="links-desktop__about">
+            About
+          </a>
+          <a href="#contact" className="links-desktop__contact">
+            Get in Touch
+          </a>
+        </ul>
       </section>
     </>
   );

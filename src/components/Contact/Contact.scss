@@ -1,19 +1,39 @@
-.contact{
-    padding:6rem;
+.contact {
+  background-color: #c4c4c4;
+  padding: 6rem;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  text-align: start;
+  &__form {
     display: flex;
     flex-direction: column;
-    width:auto;
     text-align: start;
-    &__form{
-        display: flex;
-        flex-direction: column;
-        text-align: start;
+  }
+  &__submit {
+    margin-top: 1rem;
+    width: 6rem;
+    align-self: flex-end;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .contact {
+    .container {
+      width: 50%;
     }
-    &__submit{
-        margin-top:1rem;
-        width:6rem;
-        align-self: flex-end;
+    width: fit-content;
+    width: 100%;
+    text-align: center;
+    &__form {
+      display: flex;
+      flex-direction: column;
+      text-align: start;
     }
 
-
+    &__submit {
+      margin-top: 1rem;
+      width: 6rem;
+      align-self: flex-end;
+    }
+  }
 }
