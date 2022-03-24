@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/react-personal-portfolio/static/css/main.4556eee2.css",
-    "main.js": "/react-personal-portfolio/static/js/main.2775d880.js",
+    "main.css": "/react-personal-portfolio/static/css/main.e5b69a87.css",
+    "main.js": "/react-personal-portfolio/static/js/main.fd641a65.js",
     "static/js/787.d2155700.chunk.js": "/react-personal-portfolio/static/js/787.d2155700.chunk.js",
-    "static/media/calculator-mobile.png": "/react-personal-portfolio/static/media/calculator-mobile.1c4bce31f234c5bbfd52.png",
+    "static/media/morse-code.png": "/react-personal-portfolio/static/media/morse-code.0617778e0e42a2ce09d2.png",
+    "static/media/typing-game.png": "/react-personal-portfolio/static/media/typing-game.549315a4e75286e91c48.png",
+    "static/media/ticket-tracker.png": "/react-personal-portfolio/static/media/ticket-tracker.2de1e54a03ff6e0efa66.png",
+    "static/media/brewdog.png": "/react-personal-portfolio/static/media/brewdog.e87e01b4b579191facdd.png",
+    "static/media/calculator-mobile.png": "/react-personal-portfolio/static/media/calculator-mobile.55a44e9c5fd26046ed56.png",
     "index.html": "/react-personal-portfolio/index.html",
-    "main.4556eee2.css.map": "/react-personal-portfolio/static/css/main.4556eee2.css.map",
-    "main.2775d880.js.map": "/react-personal-portfolio/static/js/main.2775d880.js.map",
+    "main.e5b69a87.css.map": "/react-personal-portfolio/static/css/main.e5b69a87.css.map",
+    "main.fd641a65.js.map": "/react-personal-portfolio/static/js/main.fd641a65.js.map",
     "787.d2155700.chunk.js.map": "/react-personal-portfolio/static/js/787.d2155700.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4556eee2.css",
-    "static/js/main.2775d880.js"
+    "static/css/main.e5b69a87.css",
+    "static/js/main.fd641a65.js"
   ]
 }
