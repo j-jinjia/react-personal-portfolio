@@ -1,6 +1,9 @@
-.projects{
-
-    width:100%;
-    background-color: #C4C4C4;
-    padding:6rem;
+.projects {
+  width: 100%;
+  background-color: #c4c4c4;
+  padding: 6rem;
+  text-align: center;
+  &__heading {
+    margin-bottom: 3rem;
+  }
 }

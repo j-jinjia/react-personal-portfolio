@@ -3,6 +3,7 @@ import typingGame from "../assets/images/typing-game.png";
 import morse from "../assets/images/morse-code.png";
 import punkApi from "../assets/images/brewdog.png";
 import ticketTracker from "../assets/images/ticket-tracker.png";
+import positivePup from "../assets/images/positive-pup.png";
 const myProjects = [
   {
     id: 1,
@@ -48,6 +49,15 @@ const myProjects = [
       "This project was created with React. BrewDog's beers with their respective information are being displayed using data form PunkAPI. It includes each individual beer card, filters and a search box.",
     liveSite: "https://j-jinjia.github.io/brewdog-api-website",
     gitHub: "https://github.com/j-jinjia/brewdog-api-website",
+  },
+  {
+    id: 6,
+    image: positivePup,
+    title: "Client Project",
+    description:
+      "An on-going project built with React for a dog training business following a design on Figma. The project focueses on pair programming and agile methodologies with Scrum as well as putting into practice all React fundamentals.  ",
+    liveSite: "https://nology-tech.github.io/positive-pup/",
+    gitHub: "https://github.com/nology-tech/positive-pup",
   },
 ];
 export default myProjects;

@@ -2,7 +2,7 @@ import "./About.scss";
 const About = () => {
   return (
     <section id="about" className="about">
-      <h3 className="about__heading">About</h3>
+      <h2 className="about__heading">About</h2>
       <br />
       <p className="about__paragraph">
         Hey there! I'm Jia Zheng, a junior full-stack software developer with
@@ -22,6 +22,7 @@ const About = () => {
         oportunity in the tech industry to apply my knowledge and keep growing
         as a developer!
       </p>
+      <br />
       <br />
       <h4 className="about__subheading">Interests</h4>
       <br />

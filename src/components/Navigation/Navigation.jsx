@@ -29,33 +29,33 @@ const Navigation = () => {
               onClick={handleClickMenu}
             />
             <ul className="links" onClick={handleClickMenu}>
-              <a href="#home" className="links__home">
+              <a href="#home" className="links__item">
                 Home
               </a>
-              <a href="#projects" className="links__projects">
+              <a href="#projects" className="links__item">
                 Projects
               </a>
-              <a href="#about" className="links__about">
+              <a href="#about" className="links__item">
                 About
               </a>
-              <a href="#contact" className="links__contact">
+              <a href="#contact" className="links__item">
                 Get in Touch
               </a>
             </ul>
           </div>
         )}
         <ul className="links-desktop">
-          <a href="#home" className="links-desktop__home">
+          <a href="#home" className="links-desktop--item">
             Home
           </a>
-          <a href="#projects" className="links-desktop__projects">
+          <a href="#projects" className="links-desktop--item">
             Projects
           </a>
-          <a href="#about" className="links-desktop__about">
+          <a href="#about" className="links-desktop--item">
             About
           </a>
-          <a href="#contact" className="links-desktop__contact">
-            Get in Touch
+          <a href="#contact" className="links-desktop--item">
+            Contact
           </a>
         </ul>
       </section>

@@ -7,15 +7,24 @@ const CardProject = (props) => {
       <img className="card-project__image" src={image} alt={title} />
       <div className="card-project__content">
         <p className="card-project__title">{title}</p>
+        <br />
+        <br />
         <p className="card-project__description">{description}</p>
+        <br />
+        <br />
+        <div className="card-project__buttons"></div>
         <Button
           title="View More"
-          label="buttons"
+          label="button__live"
           link={linkLive}
           target="_blank"
         />
-        <Button title="GitHub" label="buttons" link={linkGit} target="_blank" />
-        <div className="card-project__buttons"></div>
+        <Button
+          title="GitHub"
+          label="button__gh"
+          link={linkGit}
+          target="_blank"
+        />
       </div>
     </div>
   );

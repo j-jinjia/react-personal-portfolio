@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  height: 10vh;
+  &__links {
+    display: flex;
+    font-size: 2rem;
+    gap: 1rem;
+  }
+  .item {
+    &:hover {
+      opacity: 0.7;
+      color: black;
+    }
+  }
+}

@@ -4,15 +4,8 @@ import Home from "./components/Home/Home";
 import Projects from "./components/Projects/Projects";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
-// TO do :
-/* 
+import Footer from "./components/Footer/Footer";
 
-make responsive tablet and desktop
-check project display for tablet and destkop
-style buttons
-style navlinks
-change favicon 
-create footer component*/
 const App = () => {
   return (
     <>
@@ -21,6 +14,7 @@ const App = () => {
       <Projects />
       <About />
       <Contact />
+      <Footer />
     </>
   );
 };
