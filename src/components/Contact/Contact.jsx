@@ -24,6 +24,7 @@ export const Contact = () => {
           console.log(error.text);
         }
       );
+    event.target.reset();
   };
 
   return (
