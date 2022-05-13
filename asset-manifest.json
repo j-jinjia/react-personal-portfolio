@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/react-personal-portfolio/static/css/main.3d558781.css",
-    "main.js": "/react-personal-portfolio/static/js/main.f73ab905.js",
+    "main.js": "/react-personal-portfolio/static/js/main.4b689fbb.js",
     "static/js/787.d2155700.chunk.js": "/react-personal-portfolio/static/js/787.d2155700.chunk.js",
+    "static/media/full-stack-app.png": "/react-personal-portfolio/static/media/full-stack-app.6e8709129f4acea77f54.png",
     "static/media/positive-pup.png": "/react-personal-portfolio/static/media/positive-pup.af06df7fcd51923d74f6.png",
     "static/media/brewdog.png": "/react-personal-portfolio/static/media/brewdog.b0690521df7427b7a584.png",
     "static/media/typing-game.png": "/react-personal-portfolio/static/media/typing-game.fed352c0b1ba320f68ac.png",
@@ -11,11 +12,11 @@
     "static/media/calculator-mobile.png": "/react-personal-portfolio/static/media/calculator-mobile.84ae5cf59c737f05e382.png",
     "index.html": "/react-personal-portfolio/index.html",
     "main.3d558781.css.map": "/react-personal-portfolio/static/css/main.3d558781.css.map",
-    "main.f73ab905.js.map": "/react-personal-portfolio/static/js/main.f73ab905.js.map",
+    "main.4b689fbb.js.map": "/react-personal-portfolio/static/js/main.4b689fbb.js.map",
     "787.d2155700.chunk.js.map": "/react-personal-portfolio/static/js/787.d2155700.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d558781.css",
-    "static/js/main.f73ab905.js"
+    "static/js/main.4b689fbb.js"
   ]
 }
